@@ -27,16 +27,16 @@ public class MainActivity extends AppCompatActivity {
         new DialogCustom.Builder(MainActivity.this)
                 .setTitle(R.string.title)
                 .setMessage(R.string.message)
-                .setPositiveButton("POSITIVE", new DialogInterface.OnClickListener() {
+                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        Toast.makeText(MainActivity.this, "POSSSSSS", Toast.LENGTH_LONG).show();
+                        Toast.makeText(MainActivity.this, "Yes clicked", Toast.LENGTH_LONG).show();
                     }
                 })
-                .setNegativeButton("NEGATIVE", new DialogInterface.OnClickListener() {
+                .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        Toast.makeText(MainActivity.this, "IIIISDSSD", Toast.LENGTH_LONG).show();
+                        Toast.makeText(MainActivity.this, "No clicked", Toast.LENGTH_LONG).show();
                     }
                 })
                 .setIcon(R.drawable.lemon)
