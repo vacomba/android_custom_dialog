@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CustomDialog</string>
+    <string name="message"> Création d\'une boite de dialogue personnalisée.\n\n
+        Website: <b>www.vacomba.com</b>
+    </string>
+    <string name="title">VACOMBA</string>
+</resources>
